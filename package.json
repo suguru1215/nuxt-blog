@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.0",
+    "@nuxt/types": "^2.15.3",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.25.0",
+    "postcss": "^8.2.8",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2"
+  }
+}
